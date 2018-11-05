@@ -69,7 +69,7 @@ public class PigLatin {
 			else {
 			//If neither of those are true then the word is a consonant blend and is converted as such to pig latin
 				String consonantBlend = word1.substring(0,2);
-				String word2 = word1.substring(2,(word1.length()-1));
+				String word2 = word1.substring(2,(word1.length()));
 				pig1 = word2.trim() + consonantBlend + "ay";
 			};
 		};
@@ -128,7 +128,7 @@ public class PigLatin {
 				}
 				else {
 					String consonantBlend = word1.substring(0,2);
-					String word2 = word1.substring(2,(word1.length()-1));
+					String word2 = word1.substring(2,(word1.length()));
 					pig1 = word2.trim() + consonantBlend + "ay";
 				};
 			};
